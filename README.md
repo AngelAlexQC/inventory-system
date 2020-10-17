@@ -7,21 +7,21 @@
 
 | Método    | URL                     | Nombre           | 
 |-----------|-------------------------|------------------| 
-| GET|HEAD  | /                       |                  | 
-| GET|HEAD  | api/category            | category.index   | 
+| GET-HEAD  | /                       |                  | 
+| GET-HEAD  | api/category            | category.index   | 
 | POST      | api/category            | category.store   | 
-| GET|HEAD  | api/category/{category} | category.show    | 
-| PUT|PATCH | api/category/{category} | category.update  | 
+| GET-HEAD  | api/category/{category} | category.show    | 
+| PUT-PATCH | api/category/{category} | category.update  | 
 | DELETE    | api/category/{category} | category.destroy | 
-| GET|HEAD  | api/product             | product.index    | 
+| GET-HEAD  | api/product             | product.index    | 
 | POST      | api/product             | product.store    | 
-| GET|HEAD  | api/product/{product}   | product.show     | 
-| PUT|PATCH | api/product/{product}   | product.update   | 
+| GET-HEAD  | api/product/{product}   | product.show     | 
+| PUT-PATCH | api/product/{product}   | product.update   | 
 | DELETE    | api/product/{product}   | product.destroy  | 
-| GET|HEAD  | api/sales               | sales.index      |
+| GET-HEAD  | api/sales               | sales.index      |
 | POST      | api/sales               | sales.store      |
-| GET|HEAD  | api/sales/{sale}        | sales.show       |
-| PUT|PATCH | api/sales/{sale}        | sales.update     |
+| GET-HEAD  | api/sales/{sale}        | sales.show       |
+| PUT-PATCH | api/sales/{sale}        | sales.update     |
 | DELETE    | api/sales/{sale}        | sales.destroy    |
 
 

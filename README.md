@@ -1,13 +1,12 @@
-## Link de la API: https://inventario.itsup-ec.com/api
-## Link de aplicación: https://inventory-fci.web.app
+### Link de la API: https://inventario.itsup-ec.com/api
+### Link de aplicación: https://inventory-fci.web.app
 
-## Repositorio: https://github.com/AngelAlexQC/inventory-system
+### Repositorio: https://github.com/AngelAlexQC/inventory-system
 
-## Endpoints:
+### Endpoints:
 
-+-----------+-------------------------+------------------+
-| Method    | URI                     | Name             | 
-+-----------+-------------------------+------------------+
+| Método    | URL                     | Nombre           | 
+|-----------|-------------------------|------------------| 
 | GET|HEAD  | /                       |                  | 
 | GET|HEAD  | api/category            | category.index   | 
 | POST      | api/category            | category.store   | 
@@ -24,10 +23,9 @@
 | GET|HEAD  | api/sales/{sale}        | sales.show       |
 | PUT|PATCH | api/sales/{sale}        | sales.update     |
 | DELETE    | api/sales/{sale}        | sales.destroy    |
-+-----------+-------------------------+------------------+
 
 
-### Integrantes:
+#### Integrantes:
 - Bonilla Álvarez Juan José
 - Muñoz Cedeño Jhonny Javier
 - Quiroz Candela Ángel Alexander
